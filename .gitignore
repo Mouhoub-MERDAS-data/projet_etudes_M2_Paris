@@ -10,6 +10,10 @@ data/processed/*.csv
 data/processed/*.parquet
 data/processed/*.db
 data/processed/*.png
+data/Processed/*.csv
+data/Processed/*.parquet
+data/Processed/*.db
+data/Processed/*.png
 <<<<<<< HEAD
  
 =======
@@ -17,7 +21,7 @@ data/processed/*.png
 >>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # Garder la structure de dossiers (les .gitkeep restent versionnés)
 !data/.gitkeep
-!data/proceessed/.gitkeep
+!data/processed/.gitkeep
 !**/.gitkeep
 <<<<<<< HEAD
  
