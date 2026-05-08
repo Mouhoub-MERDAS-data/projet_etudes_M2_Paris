@@ -1,89 +1,121 @@
 # ============================================================
-# DONNÉES (téléchargées séparément - voir README.md)
+
+# DONNÉES
+
 # ============================================================
+ 
 data/*.csv
+
 data/*.txt
+
 data/*.json
+
 data/*.xlsx
+
 data/*.parquet
-data/proceessed/*.csv
-data/proceessed/*.parquet
-data/proceessed/*.db
-data/proceessed/*.png
-<<<<<<< HEAD
  
-=======
+data/processed/*.csv
 
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
-# Garder la structure de dossiers (les .gitkeep restent versionnés)
+data/processed/*.parquet
+
+data/processed/*.db
+
+data/processed/*.png
+ 
+data/Processed/*.csv
+
+data/Processed/*.parquet
+
+data/Processed/*.db
+
+data/Processed/*.png
+ 
+# garder la structure
+
 !data/.gitkeep
-!data/proceessed/.gitkeep
+
+!data/processed/.gitkeep
+
 !**/.gitkeep
-<<<<<<< HEAD
  
-=======
-
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
+ 
 # ============================================================
+
 # PYTHON
+
 # ============================================================
+ 
 __pycache__/
+
 *.py[cod]
+
 *.so
+
 .Python
+
 *.egg-info/
-<<<<<<< HEAD
  
-=======
+# environnements virtuels
 
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
-# Environnements virtuels
 .venv/
+
 venv/
+
 env/
+
 ENV/
-<<<<<<< HEAD
  
-=======
-
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
+ 
 # ============================================================
+
 # JUPYTER
+
 # ============================================================
+ 
 .ipynb_checkpoints/
+
 **/.ipynb_checkpoints/
-<<<<<<< HEAD
  
-=======
+ 
+# ============================================================
 
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
+# IDE
+
 # ============================================================
-# IDE / ÉDITEURS
-# ============================================================
+ 
 .vscode/
+
 .idea/
+
 *.swp
+
 *.swo
+
 *~
-<<<<<<< HEAD
  
-=======
-
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
+ 
 # ============================================================
+
 # OS
-# ============================================================
-.DS_Store
-Thumbs.db
-desktop.ini
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
-# SECRETS (au cas où vous en auriez plus tard)
+ 
+.DS_Store
+
+Thumbs.db
+
+desktop.ini
+ 
+ 
 # ============================================================
+
+# SECRETS
+
+# ============================================================
+ 
 .env
+
 *.key
+
 secrets.json
+ 
