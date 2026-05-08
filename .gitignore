@@ -10,12 +10,20 @@ data/proceessed/*.csv
 data/proceessed/*.parquet
 data/proceessed/*.db
 data/proceessed/*.png
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # Garder la structure de dossiers (les .gitkeep restent versionnés)
 !data/.gitkeep
 !data/proceessed/.gitkeep
 !**/.gitkeep
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
 # PYTHON
 # ============================================================
@@ -24,19 +32,31 @@ __pycache__/
 *.so
 .Python
 *.egg-info/
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # Environnements virtuels
 .venv/
 venv/
 env/
 ENV/
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
 # JUPYTER
 # ============================================================
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
 # IDE / ÉDITEURS
 # ============================================================
@@ -45,14 +65,22 @@ ENV/
 *.swp
 *.swo
 *~
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
 # OS
 # ============================================================
 .DS_Store
 Thumbs.db
 desktop.ini
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 5ce2ea215a2c750ef39618290f1c25bacaa556c9
 # ============================================================
 # SECRETS (au cas où vous en auriez plus tard)
 # ============================================================
