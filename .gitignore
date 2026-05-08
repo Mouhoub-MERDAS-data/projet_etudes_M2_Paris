@@ -1,0 +1,61 @@
+# ============================================================
+# DONNÉES (téléchargées séparément - voir README.md)
+# ============================================================
+data/*.csv
+data/*.txt
+data/*.json
+data/*.xlsx
+data/*.parquet
+data/proceessed/*.csv
+data/proceessed/*.parquet
+data/proceessed/*.db
+data/proceessed/*.png
+
+# Garder la structure de dossiers (les .gitkeep restent versionnés)
+!data/.gitkeep
+!data/proceessed/.gitkeep
+!**/.gitkeep
+
+# ============================================================
+# PYTHON
+# ============================================================
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# JUPYTER
+# ============================================================
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ============================================================
+# IDE / ÉDITEURS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# SECRETS (au cas où vous en auriez plus tard)
+# ============================================================
+.env
+*.key
+secrets.json
