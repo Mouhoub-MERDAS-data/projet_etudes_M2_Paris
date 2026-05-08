@@ -6,10 +6,10 @@ data/*.txt
 data/*.json
 data/*.xlsx
 data/*.parquet
-data/proceessed/*.csv
-data/proceessed/*.parquet
-data/proceessed/*.db
-data/proceessed/*.png
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.db
+data/processed/*.png
 <<<<<<< HEAD
  
 =======
