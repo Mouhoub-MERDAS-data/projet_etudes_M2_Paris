@@ -75,8 +75,8 @@ def predict_hybrid(segment_name):
     pred_te_arimax = arimax.forecast(steps=len(test), exog=exog_te.values)
 
     pred_tr_arimax = arimax.fittedvalues
-    res_te = test["NO2"].values - pred_te_arimax
-    res_te_s = scaler_res.transform(res_te.reshape(-1, 1)).flatten()
+    res_te = test["NO2"].values - np.array(pred_te_arimax)
+    res_te_s = scaler_res.transform(np.array(res_te).reshape(-1, 1)).flatten()
 
     X = np.array(
         [res_te_s[i : i + LOOK_BACK] for i in range(len(res_te_s) - LOOK_BACK)]
@@ -87,8 +87,8 @@ def predict_hybrid(segment_name):
     return {
         "time": test["time"].values[LOOK_BACK:],
         "obs": test["NO2"].values[LOOK_BACK:],
-        "arimax": pred_te_arimax[LOOK_BACK:],
-        "hybrid": pred_te_arimax[LOOK_BACK:] + pred_res,
+        "arimax": np.array(pred_te_arimax)[LOOK_BACK:],
+        "hybrid": np.array(pred_te_arimax)[LOOK_BACK:] + pred_res,
     }
 
 
